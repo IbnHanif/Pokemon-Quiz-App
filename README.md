@@ -1,4 +1,3 @@
-# Pokemon-Quiz-App
 # Pokemon Quiz App ⚡🎮
 
 A simple, interactive Pokémon-themed quiz web app built using **HTML, CSS, and Vanilla JavaScript**.
