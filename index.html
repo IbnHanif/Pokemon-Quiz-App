@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeQuiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class=" active-screen" id="start-screen">
+            <h1> It's Pokémon Quiz Time!</h1>
+            <p>Let's check your Pokemon Knowledge !</p>
+            <button id="start-btn">Start Quiz!</button>
+        </div>
+    <div class="screen" id="Quiz-Screen">
+        <div class="quiz-Header"><h2 id="Question-Text"></h2></div>
+        <div class="quiz-info">
+            <p>
+            Question <span id="current-question-num">1</span> of <span id="total-questions"></span>
+            </p>
+            <p>
+                Poke-Points: <span id="Poke-points">
+                    0
+                </span>
+            </p>
+        </div>
+        <div id="answers-container"class='answers-container'>
+            <!-- ANSWERS WILL BE ADDED FROM THE script.js FILE -->
+            <button class="answer-btn">Answer</button>
+        </div>
+        <div class="exp-bar">
+            <div class="progress" id="progress">
+                 <!-- this contains the thin progress bar line shown below the flash cards for the quiz app -->
+            </div>
+        </div>
+        <div id="result-screen" class="screen">
+            <!-- this will show the results of the quizes the user had answered -->
+             <h1>QUIZ RESULTS !</h1>
+             <div class="result-info">
+               <p>Your Scored Pokepoints:  <span id="final-Poke-points"></span>Out of <span id="max-Poke-points"></span></p> 
+             </div>
+             <div class="result-message">
+                <h1>GOOD JOB!</h1>
+                    <button id="restart-btn">Restart Quiz!</button>
+                </div>
+             </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
