@@ -18,6 +18,15 @@ This project was made as a learning exercise while practicing DOM manipulation, 
 * Clean, responsive layout
 
 ---
+## How it Looks
+<img width="919" height="837" alt="image" src="https://github.com/user-attachments/assets/837ebe2b-be8e-4cd0-a522-96f6508be73a" />
+---
+<img width="918" height="844" alt="image" src="https://github.com/user-attachments/assets/e33b22dc-1789-41e5-bdb0-1fc3219b8302" />
+---
+<img width="546" height="432" alt="image" src="https://github.com/user-attachments/assets/f2602be2-e91d-48eb-935f-368cf60d860f" />
+---
+
+
 
 ## 🛠️ Tech Stack
 
